@@ -2,7 +2,7 @@
 
 ### Repository for [LessonFour](https://neog.camp/guide/lessonFour#read-more) of levelZero of neoGcamp
 
-### assignment for markSix
+### assignment for markSeven
 
 >Follow the instruction in LessonFour and build the same JS application.
 
