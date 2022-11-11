@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website of Pratyush Gupta</title>
+</head>
+<body>
+<p>
+    <p> Click the following button to see the effect </p>        
+      <form>  
+         <input type = "button" value = "Alert" onclick = "alertButton();" />  
+         <input type = "button" value = "Prompt" onclick = "promptButton();" />
+         <input class = "consoleButton" type = "button" value = "Click!" />  
+      </form>
+</p>
+<div>
+    <textarea id="input" name="story"
+            rows="5" cols="33">
+    It was a dark and stormy night... Adding text here
+    </textarea>
+</div>
+
+<div><input class = "enterButton" type = "button" value = "Enter!" onclick="console.log('Clicked!')"/></div>
+<div><input class = "enterButton" type = "button" value = "Fill Text" onclick="fillValue();"/></div>
+
+<textarea id="output"
+    rows="5" cols="33">
+</textarea>
+
+<script src="script.js">  
+</script>
+</body>
+</html>
